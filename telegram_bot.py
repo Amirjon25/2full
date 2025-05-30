@@ -84,20 +84,19 @@ def handle_help(message):
     help_text = (
         "📘 Komandalar:"
 
-        "/start – Botga kirish"
-        "/pause – Botni to‘xtatish (ADMIN)"
-        "/resume – Botni yoqish (ADMIN)"
-        "/status – Bot holatini ko‘rish"
-        "/filtercsv [15min] – Timeframe bo‘yicha signal"
-        "/filterconf [80] – Confidence bo‘yicha"
-        "/stats – Signal statistikasi"
-        "/trainmodel – Modelni qayta o‘qitish"
-        "/tozalash – Tozalash (clean_signals.csv)"
-        "/reset – Model oxirgi signal tahlili"
-        "/grafik [8ta raqam] – AI bashorat"
-        "/exportcsv – CSV faylni yuborish"
-        "/aistats – AI confusion matrix grafigi"
-        "/info - ai bashorat"
+        "/start – Botga kirish   "
+        "/pause – Botni to‘xtatish (ADMIN)   "
+        "/resume – Botni yoqish (ADMIN)   "
+        "/status – Bot holatini ko‘rish   "
+        "/filtercsv [15min] – Timeframe bo‘yicha signal   "
+        "/filterconf [80] – Confidence bo‘yicha   "
+        "/statistika – Signal statistikasi   "
+        "/reset – Modelni qayta o‘qitish   "
+        "/tozalash – Tozalash (clean_signals.csv)   "
+        "/info – Model oxirgi signal tahlili   "
+        "/bashorat [8ta raqam] – AI bashorat   "
+        "/csv – CSV faylni yuborish   "
+        "/grafik – AI confusion matrix grafigi   "
 )
     bot.send_message(message.chat.id, help_text)
 
